@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "EDUCOURS",
+    "slug": "educours",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "backgroundColor": "#1a56db",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.educours.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#1a56db"
+      },
+      "package": "com.educours.app"
+    },
+    "plugins": [
+      "expo-secure-store",
+      "expo-notifications"
+    ],
+    "extra": {
+      "apiUrl": "https://educours-backend.onrender.com/api",
+      "socketUrl": "https://educours-backend.onrender.com"
+    }
+  }
+}
